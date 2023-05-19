@@ -1,3 +1,27 @@
-h1 {
-    color: blue;
+header {
+    height: 60px;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    margin: auto
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px ;
+}
+
+nav ul li a{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: orange;
 }
